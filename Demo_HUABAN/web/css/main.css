@@ -1,0 +1,140 @@
+* {
+    margin:0px;
+    padding:0px;
+    font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+ * a {
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+footer,
+header,
+nav,
+ul,
+li {
+    display: block;
+}
+
+header  {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+header nav .nav_body{
+     height:720px;
+ }
+.nav_body {
+    height: 720px;
+    background-image: url("../img/pureGreen_bg.png");
+}
+.nav_body_2 {
+    height: 69.6px;
+}
+
+
+.nav_menu {
+    width: 780px;
+    float: right;
+}
+.nav_logo {
+    display: block;
+    float: left;
+    padding-left: 130px;;
+
+}
+.nav_menu li a {
+    width: 90px;
+    float: left;
+    font-size: 17px;
+    height: 30px;
+    text-align: center;
+    vertical-align: sub;
+}
+#bg {
+    display: block;
+
+}
+ .nav_body_2 .nav_menu li a:hover {
+    color: wheat;
+    font-size: large;
+}
+.nav_menu li a:hover {
+    color: white;
+    font-size: large;
+}
+#i-contain {
+    width: auto;
+    height: 2800px;
+    background-color: white;
+    display: block;
+}
+#i-contain-flowers,
+#i-contain-que,
+#i-contain-blog,
+#i-contain-view {
+    display: block;
+    width: auto;
+    height: 500px;
+    background-color: antiquewhite;
+}
+#i-compa {
+    display: block;
+    width: auto;
+    height: 800px;
+    background-color: antiquewhite;
+
+}
+
+#icf1 {
+}
+
+.contain-flowers {
+    height: 300px;
+
+}
+
+/*
+
+*/
+
+
+
+
+
+
+
+
+
+#F-container{
+    display: block;
+    margin: auto;
+    width: 980px;
+    height: 980px;
+    background-color: wheat;
+}
+/*
+footer 部分css
+*/
+footer {
+    width: auto;
+    height: 130px;
+    background-color: #222222;
+}
+.right-inner p{
+    display: block;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 50px;
+    text-align: center;
+    color: #ffffff;
+}
