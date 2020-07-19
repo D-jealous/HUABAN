@@ -1,0 +1,130 @@
+*{
+    font-size: 14px;
+}
+div .container {
+    margin: auto;
+}
+img .img-responsive {
+
+}
+#Q-content {
+    display: block;
+    margin: auto;
+    width: 1170px;
+    background-color: wheat;
+    line-height: 24px;
+    text-align: center;
+}
+textarea{
+    resize: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+body{
+    background: #f8fafc;
+}
+.q-ask{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow:0px 0px 20px 4px #fff
+}
+.q-ask i{
+    color: #646464;
+}
+.q-question{
+    box-shadow:0px 2px 5px #8f8c8c;
+    padding:10px;
+    border-radius: 20px;
+    background: white;
+    margin-bottom: 10px;
+}
+.q-question .q-img,.q-question .q-video{
+    float: left;
+}
+.q-question .q-img img{
+    height: 100px;
+    object-fit: cover;
+    width: 100px;
+    margin-right: 10px;
+
+}
+.q-question .q-video video{
+    height: 100px;
+    margin-right: 10px;
+}
+.q-answer{
+    margin-top: 10px;
+}
+.v-classify{
+    background: white;
+    margin-bottom: 10px;
+}
+.p-classify{
+    margin-bottom: 15px;
+}
+.nav-pills .v-active  a{
+    background: none;
+    color: rgba(0, 56, 255, 0.79);
+}
+.nav-pills .v-active:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background: rgba(0, 56, 255, 0.79);
+}
+.q-search{
+    padding: 8px;
+}
+.q-search input{
+    border-radius: 5px;
+    border:1px solid rgba(0, 56, 255, 0.79);
+    text-indent: 10px;
+    height: 30px;
+    width: 100%;
+}
+.q-my{
+    padding-bottom:10px;
+    margin-left: 0;
+}
+.my-box{
+    background: #ffffff;
+    margin-bottom: 20px;
+}
+.my-questions,.my-answer{
+    background: #f8fafc;
+    color: #404040;
+    text-align: center;
+    height:5vw;
+    line-height: 4vw;
+    padding: 5px;
+    border: 1px solid transparent;
+    margin: 3%;
+    border-radius: 5px;
+}
+.my-questions:hover,.my-answer:hover{
+    text-decoration: none;
+    color: #8042ff;
+    border: 1px solid #8042ff;
+}
+.my-allow-but{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+.my-allow-but i{
+    color: #ffffff;
+}
+.my-allow{
+    background: #23d65b;
+}
+.my-no-allow{
+    background: #ef5c5a;
+}
+.my-is-allow{
+    background: #ffc223;
+}
