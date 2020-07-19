@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie">
+    <title>花伴网</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"/>
+    <link href="css/main.css" rel="stylesheet"/>
+    <link href="css/questions.css" rel="stylesheet"/>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- header start-->
+<header id="header2">
+    <nav>
+        <div class ="nav_body">
+            <div class="nav_logo">
+                <a href="index.html"><img src="images/logo.png" alt="暂时的"><!--logo图标--></a>
+            </div>
+            <div>
+                <form class="form-inline">
+                    <div class="form-group">
+                        <input type="search" class="form-control" id="exampleInputName2" placeholder="Search">
+                        <button type="submit" class="btn btn-default">查找</button>
+                    </div>
+                </form>
+            </div>
+            <ul class="nav_menu">
+                <li><a href="index.html" > 首页</a></li>
+                <li><a href="F_video.html" >园艺视频</a></li>
+                <li><a href="question.html" >问答区</a></li>
+                <li><a href="F_sale.html" >花卉销售</a></li>
+                <li><a href="F_group.html" >花伴社区</a></li>
+                <li><a href="F_own.html">个人中心</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<!-- header end-->
+
+
+<div id="Q-content">
+<div class="container" style=" border: 1px solid red;">
+    <h3>问答区</h3>
+    <div class="">
+        <div class="col-md-9" style="border: 1px solid red">
+            <div class="q-ask">
+                <form class="row" action="#">
+                    <div class="col-md-12 form-group">
+                        <label for="ask">提问</label>
+                        <textarea id="ask" name="ask" style="resize: none;" class="form-control" rows="5"></textarea>
+                    </div>
+                    <div class="col-md-12 form-group">
+                        <button onclick="$('#img').click();" type="button" class="btn btn-default btn-sm">
+                            <i class="glyphicon glyphicon-picture"></i>
+                        </button>
+                        <button  onclick="$('#video').click();" type="button" class="btn btn-default btn-sm">
+                            <i class="glyphicon glyphicon-film"></i>
+                        </button>
+                        <input accept="image/*" style="display: none;" id="img" name="img" type="file">
+                        <input accept="video/*" style="display: none;" id="video" name="video"  type="file" >
+                    </div>
+                    <div class="col-md-12 text-right">
+                        <button  type="submit" class="btn btn-info">提交</button>
+                    </div>
+                </form>
+            </div>
+            <div class="row v-classify">
+                <div class="p-classify">
+                    <ul class="nav nav-pills col-md-4">
+                        <li class=""><a href="#">最新</a></li>
+                        <li class=""><a href="#">最热</a></li>
+                        <li class="v-active"><a href="#">未回答</a></li>
+                    </ul>
+                    <div class="col-md-8 pull-right q-search">
+                        <form class="navbar-search pull-right col-md-5">
+                            <input type="text" class="search-query" placeholder="Search">
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <div class="q-questions">
+                <div class="q-question row">
+                    <div class="col-md-2 q-">
+                        <div class="col-md-12 text-center">
+                            <img class="img-thumbnail img-thumbnail img-circle" width="70px" height="70px" src="images/7572fd4eadd1efcbea133a1f93fd505e.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="col-md-12">
+                            <h4>你叫什么名字？</h4>
+                            <p>我想知道你叫什么名字？</p>
+                        </div>
+                        <div class="col-md-12 q-answer">
+                            <div class="alert alert-warning">
+                                <textarea rows="3" style="width: 100%" type="text" placeholder="回答问题"></textarea>
+                                <button class="btn btn-info" type="button">确定</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="q-question row">
+                    <div class="col-md-2 q-">
+                        <div class="col-md-12 text-center">
+                            <img class="img-thumbnail img-thumbnail img-circle" width="70px" height="70px" src="images/7572fd4eadd1efcbea133a1f93fd505e.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="col-md-12">
+                            <h4>你叫什么名字？</h4>
+                            <p>我想知道你叫什么名字？</p>
+                        </div>
+                        <div class=" q-img">
+                            <img   src="images/20200717222555.png" alt="">
+                        </div>
+                        <div class=" q-video">
+                            <video  src="mp4/14564.mp4" controls ></video>
+                        </div>
+                        <div class="col-md-12 q-answer">
+                            <div class="alert alert-warning">
+                                <textarea rows="3" style="width: 100%" type="text" placeholder="回答问题"></textarea>
+                                <button class="btn btn-info" type="button">确定</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="q-question row">
+                    <div class="col-md-2 q-">
+                        <div class="col-md-12 text-center">
+                            <img class="img-thumbnail img-thumbnail img-circle" width="70px" height="70px" src="images/7572fd4eadd1efcbea133a1f93fd505e.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="col-md-12">
+                            <h4>你叫什么名字？</h4>
+                            <p>我想知道你叫什么名字？</p>
+                        </div>
+                        <div class=" q-img">
+                            <img   src="images/20200717222555.png" alt="">
+                        </div>
+                        <div class=" q-video">
+                            <video  src="mp4/14564.mp4" controls ></video>
+                        </div>
+                        <div class="col-md-12 q-answer">
+                            <div class="alert alert-warning">
+                                <textarea rows="3" style="width: 100%" type="text" placeholder="回答问题"></textarea>
+                                <button class="btn btn-info" type="button">确定</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="q-question row">
+                    <div class="col-md-2 q-">
+                        <div class="col-md-12 text-center">
+                            <img class="img-thumbnail img-thumbnail img-circle" width="70px" height="70px" src="images/7572fd4eadd1efcbea133a1f93fd505e.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="col-md-12">
+                            <h4>你叫什么名字？</h4>
+                            <p>我想知道你叫什么名字？</p>
+                        </div>
+                        <div class="col-md-12 q-answer">
+                            <div class="alert alert-warning">
+                                <textarea rows="3" style="width: 100%" type="text" placeholder="回答问题"></textarea>
+                                <button class="btn btn-info" type="button">确定</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3" style="border: 1px solid red">
+            <div class="row q-my">
+                <div class="col-md-12 my-box">
+                    <h4>我参与的</h4>
+                    <a href="my-question.html" target="_blank" class="col-md-4 my-questions">我的提问</a>
+                    <a href="university-student-questions.html" target="_blank" class="col-md-4 my-answer">我的回答</a>
+                </div>
+                <div class="col-ms-12">
+                    <img class="img-responsive" src="images/qrcode_for_gh_35d23f8ee925_344.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div></div>
+
+<!-- container end-->
+
+<!-- footer start-->
+<footer>
+    <div class="f-right">
+        <div class="right-inner">
+            <p>Copyright © 2017 Designed by XXX. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+<!-- footer end-->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/layui/layui.all.js"></script>
+</body>
+</html>
+
